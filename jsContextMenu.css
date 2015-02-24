@@ -1,0 +1,43 @@
+.jsContextMenu{
+	position: fixed;
+}
+.jsContextMenu *{
+	position: relative;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+.jsContextMenu-brunch{
+	display: none;
+	width: 180px;
+	left: 178px;
+	top: -27px;
+	padding: 3px 0;
+	border: solid 1px #f0f0f0;
+	background: #fff;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+          box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+}
+.jsContextMenu>.jsContextMenu-brunch{
+	left: 0;
+	top: 0;
+}
+.jsContextMenu-node > p{
+	font-size: 12px;
+	padding: 3px 0 3px 30px;
+	overflow: hidden;
+}
+.jsContextMenu-node{
+	left:0;
+	height: 24px;
+	cursor: pointer;
+	
+	background: #fff;
+	border-bottom: 0;
+}
+.jsContextMenu-node:hover{
+	background: #f0f0f0;
+}
+.jsContextMenu-node.hover>.jsContextMenu-brunch, .jsContextMenu-brunch.hover{
+	display: block;
+}
