@@ -1,3 +1,8 @@
+/*
+ * Rijn
+ * pixelnfinite.com
+ * 2015/02/25
+ */
 ;
 (function(window) {
     var jsContextMenu = function() {
